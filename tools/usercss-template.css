@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name         {{title}}
+@version      {{version}}
+@description  {{description}}
+@namespace    https://github.com/StylusThemes
+@author       StylusThemes <https://github.com/StylusThemes>
+@homepageURL  https://github.com/StylusThemes/Userstylesorg-Fixes
+@supportURL   https://github.com/StylusThemes/Userstylesorg-Fixes/issues
+@updateURL    https://raw.githubusercontent.com/StylusThemes/Userstylesorg-Fixes/master/{{main}}
+@license      {{license}}
+
+@advanced dropdown BIS "Better Image Scaling" {
+BISY "Yes (Click on image to scale it)" <<<EOT
+{{better-image-scaling}} EOT;
+BISN "No" <<<EOT
+ EOT;
+}
+
+@advanced dropdown CSSCBOT "Show CSS Code button on the top" {
+CSSCBOTY "Yes" <<<EOT
+{{css-code-button-on-top}} EOT;
+CSSCBOTN "No" <<<EOT
+ EOT;
+}
+
+@advanced dropdown SFAR "remove Stylish for Android things" {
+SFARY "Yes" <<<EOT
+{{stylish-for-android-remover}} EOT;
+SFARN "No" <<<EOT
+ EOT;
+}
+==/UserStyle== */
