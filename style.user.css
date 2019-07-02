@@ -5,7 +5,7 @@
 @namespace    https://github.com/StylusThemes
 @author       StylusThemes <https://github.com/StylusThemes>
 @homepageURL  https://github.com/StylusThemes/Userstylesorg-Fixes
-@supportURL   https://github.com/StylusThemes/Userstylesorg-Fixes/issues
+@supportURL   https://github.com/StylusThemes/Userstylesorg-Fixes/issues/
 @updateURL    https://raw.githubusercontent.com/StylusThemes/Userstylesorg-Fixes/master/style.user.css
 @license      CC-BY-SA-4.0
 
@@ -31,9 +31,12 @@ SFARN "No" <<<EOT
 }
 ==/UserStyle== */
 @-moz-document domain("userstyles.org") {
-/*[[BIS]]*/
+  #copyrights::after {
+    white-space: pre;
+    content: "\A Userstyles.org Fixes - Version 0.0.1";
+  }
 
-/*[[CSSCBOT]]*/
-
-/*[[SFAR]]*/
+  /*[[BIS]]*/
+  /*[[CSSCBOT]]*/
+  /*[[SFAR]]*/
 }

@@ -1,13 +1,13 @@
 /* ==UserStyle==
-@name         {{title}}
-@version      {{version}}
-@description  {{description}}
+@name         Userstyles.org Fixes
+@version      0.0.1
+@description  Fixes a few issues with userstyles.org
 @namespace    https://github.com/StylusThemes
 @author       StylusThemes <https://github.com/StylusThemes>
 @homepageURL  https://github.com/StylusThemes/Userstylesorg-Fixes
-@supportURL   https://github.com/StylusThemes/Userstylesorg-Fixes/issues
-@updateURL    https://raw.githubusercontent.com/StylusThemes/Userstylesorg-Fixes/master/{{main}}
-@license      {{license}}
+@supportURL   https://github.com/StylusThemes/Userstylesorg-Fixes/issues/
+@updateURL    https://raw.githubusercontent.com/StylusThemes/Userstylesorg-Fixes/master/style.user.css
+@license      CC-BY-SA-4.0
 
 @advanced dropdown BIS "Better Image Scaling" {
 BISY "Yes (Click on image to scale it)" <<<EOT
@@ -30,3 +30,9 @@ SFARN "No" <<<EOT
  EOT;
 }
 ==/UserStyle== */
+@-moz-document domain("userstyles.org") {
+{{theme}}
+/*[[BIS]]*/
+/*[[CSSCBOT]]*/
+/*[[SFAR]]*/
+}
