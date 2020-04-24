@@ -13,7 +13,7 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
+    "gulp-autoprefixer": "^7.0.1",
     "gulp-beautify": "^3.0.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-file-insert": "^2.0.0",
